@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	1A0AA0610FC85DA0002C23D9 /* TicTacToeDefs.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {767, 971}}";
+			sepNavSelRange = "{71, 0}";
+			sepNavVisRange = "{0, 822}";
+			sepNavWindowFrame = "{{15, 551}, {826, 1022}}";
+		};
+	};
+	1A6853B20FC770D5002CA8DF /* TTTDocument+GameLogic.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {724, 501}}";
+			sepNavSelRange = "{762, 13}";
+			sepNavVisRange = "{0, 884}";
+			sepNavWindowFrame = "{{583, 872}, {783, 552}}";
+		};
+	};
+	1A6853B30FC770D5002CA8DF /* TTTDocument+GameLogic.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {767, 1498}}";
+			sepNavSelRange = "{218, 28}";
+			sepNavVisRange = "{848, 2338}";
+			sepNavWindowFrame = "{{871, 349}, {826, 1022}}";
+		};
+	};
+	1A6853DC0FC77728002CA8DF /* GameRow.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {661, 588}}";
+			sepNavSelRange = "{731, 5}";
+			sepNavVisRange = "{0, 875}";
+			sepNavWindowFrame = "{{182, 699}, {720, 639}}";
+		};
+	};
+	1A6853DD0FC77728002CA8DF /* GameRow.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {767, 1204}}";
+			sepNavSelRange = "{828, 13}";
+			sepNavVisRange = "{0, 1760}";
+			sepNavWindowFrame = "{{488, 365}, {826, 1022}}";
+		};
+	};
+	1A6853DF0FC77734002CA8DF /* TicTacToeGame.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {650, 688}}";
+			sepNavSelRange = "{367, 10}";
+			sepNavVisRange = "{0, 1394}";
+			sepNavWindowFrame = "{{349, 678}, {709, 739}}";
+		};
+	};
+	1A6853E00FC77734002CA8DF /* TicTacToeGame.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {650, 3360}}";
+			sepNavSelRange = "{5469, 0}";
+			sepNavVisRange = "{4142, 2023}";
+			sepNavWindowFrame = "{{752, 244}, {709, 1143}}";
+		};
+	};
+	1A6853E20FC7790D002CA8DF /* GameRowEnumerator.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {628, 492}}";
+			sepNavSelRange = "{543, 0}";
+			sepNavVisRange = "{0, 543}";
+			sepNavWindowFrame = "{{107, 946}, {687, 543}}";
+		};
+	};
+	1A6853E30FC7790D002CA8DF /* GameRowEnumerator.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {661, 1022}}";
+			sepNavSelRange = "{1443, 0}";
+			sepNavVisRange = "{136, 1503}";
+			sepNavWindowFrame = "{{426, 488}, {720, 955}}";
+		};
+	};
+	1A6853E50FC77924002CA8DF /* TwoOneRowEnumerator.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {849, 504}}";
+			sepNavSelRange = "{819, 13}";
+			sepNavVisRange = "{212, 662}";
+			sepNavWindowFrame = "{{220, 820}, {656, 553}}";
+		};
+	};
+	1A6853E60FC77924002CA8DF /* TwoOneRowEnumerator.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {584, 634}}";
+			sepNavSelRange = "{289, 13}";
+			sepNavVisRange = "{0, 712}";
+			sepNavWindowFrame = "{{460, 597}, {643, 685}}";
+		};
+	};
+	1AD689730FC9213A00E71228 /* StrokeDiag.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{84, 135}, {950, 1375}}";
+		};
+	};
+	1AD689740FC9213A00E71228 /* StrokeHorz.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{107, 114}, {950, 1375}}";
+		};
+	};
+	1AD689750FC9213A00E71228 /* StrokeVert.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 198}, {950, 1375}}";
+		};
+	};
+	1ADA27C20FC5E38B005AD085 /* TicTacToe */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = TicTacToe;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	1ADA27C80FC5E3AA005AD085 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	1ADA27C90FC5E3AA005AD085 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1ADD70860FC7422B00341CE9 /* ChalkboardView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {569, 733}}";
+			sepNavSelRange = "{423, 0}";
+			sepNavVisRange = "{0, 1020}";
+			sepNavWindowFrame = "{{15, 789}, {628, 784}}";
+		};
+	};
+	1ADD70870FC7422B00341CE9 /* ChalkboardView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {767, 4284}}";
+			sepNavSelRange = "{8797, 0}";
+			sepNavVisRange = "{1922, 2700}";
+			sepNavWindowFrame = "{{504, 506}, {826, 1022}}";
+		};
+	};
+	1ADD70890FC742B400341CE9 /* Chalkboard.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{61, 480}, {1094, 1051}}";
+		};
+	};
+	1ADD70ED0FC763F800341CE9 /* O1.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{130, 446}, {826, 1022}}";
+		};
+	};
+	1ADD70EE0FC763F800341CE9 /* O2.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{38, 177}, {950, 1375}}";
+		};
+	};
+	1ADD70EF0FC763F800341CE9 /* O3.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{61, 156}, {950, 1375}}";
+		};
+	};
+	1ADD70F00FC763F800341CE9 /* O0.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 198}, {950, 1375}}";
+		};
+	};
+	1ADD70F10FC763F800341CE9 /* X1.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{107, 114}, {950, 1375}}";
+		};
+	};
+	1ADD70F20FC763F800341CE9 /* X2.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 198}, {950, 1375}}";
+		};
+	};
+	1ADD70F30FC763F800341CE9 /* X3.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{38, 177}, {950, 1375}}";
+		};
+	};
+	1ADD70F40FC763F800341CE9 /* X4.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{61, 156}, {950, 1375}}";
+		};
+	};
+	1ADD70F50FC763F800341CE9 /* X0.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{84, 135}, {950, 1375}}";
+		};
+	};
+	2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 1ADA27C20FC5E38B005AD085 /* TicTacToe */;
+		activeTarget = 8D15AC270486D014006FF6A4 /* TicTacToe */;
+		addToTargets = (
+			8D15AC270486D014006FF6A4 /* TicTacToe */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 1ADA27C90FC5E3AA005AD085 /* Code sense */;
+		executables = (
+			1ADA27C20FC5E38B005AD085 /* TicTacToe */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					315,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 271813503;
+			PBXWorkspaceStateSaveDate = 271813503;
+		};
+		sourceControlManager = 1ADA27C80FC5E3AA005AD085 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	2A37F4ACFDCFA73011CA2CEA /* TTTDocument.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1035, 1596}}";
+			sepNavSelRange = "{430, 13}";
+			sepNavVisRange = "{0, 1823}";
+			sepNavWindowFrame = "{{139, 363}, {1094, 1051}}";
+		};
+	};
+	2A37F4AEFDCFA73011CA2CEA /* TTTDocument.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {571, 467}}";
+			sepNavSelRange = "{575, 0}";
+			sepNavVisRange = "{0, 633}";
+			sepNavWindowFrame = "{{21, 947}, {630, 518}}";
+		};
+	};
+	2A37F4B0FDCFA73011CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {891, 1324}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 245}";
+			sepNavWindowFrame = "{{38, 177}, {950, 1375}}";
+		};
+	};
+	2A37F4BAFDCFA73011CA2CEA /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1049, 1015}}";
+			sepNavSelRange = "{60, 0}";
+			sepNavVisRect = "{{0, 0}, {1049, 1014}}";
+			sepNavWindowFrame = "{{15, 522}, {1094, 1051}}";
+		};
+	};
+	8D15AC270486D014006FF6A4 /* TicTacToe */ = {
+		activeExec = 0;
+		executables = (
+			1ADA27C20FC5E38B005AD085 /* TicTacToe */,
+		);
+	};
+	8D15AC360486D014006FF6A4 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{1103, 465}, {1094, 1051}}";
+		};
+	};
+}

@@ -1,0 +1,172 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 1A2BAA8C0F8BDADF00B355CB /* Guest */;
+		activeTarget = 1A2BAAC40F8BE2BF00B355CB /* All */;
+		addToTargets = (
+			8DD76F960486AA7600D96B5E /* Greeter */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 1A2BAA700F8BD90F00B355CB /* Code sense */;
+		executables = (
+			1A2BAA660F8BD90100B355CB /* Greeter */,
+			1A2BAA8C0F8BDADF00B355CB /* Guest */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 261420987;
+			PBXWorkspaceStateSaveDate = 261420987;
+		};
+		sourceControlManager = 1A2BAA6F0F8BD90F00B355CB /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	08FB7796FE84155DC02AAC07 /* Greeter.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {890, 1315}}";
+			sepNavSelRange = "{365, 81}";
+			sepNavVisRange = "{0, 579}";
+			sepNavWindowFrame = "{{705, 174}, {949, 1366}}";
+		};
+	};
+	1A2BAA660F8BD90100B355CB /* Greeter */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			YES,
+		);
+		argumentStrings = (
+			"--mach",
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Greeter;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	1A2BAA6C0F8BD90F00B355CB /* Guest.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {541, 298}}";
+			sepNavSelRange = "{238, 0}";
+			sepNavVisRange = "{0, 361}";
+			sepNavWindowFrame = "{{516, 1217}, {600, 349}}";
+		};
+	};
+	1A2BAA6D0F8BD90F00B355CB /* Guest.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {890, 1315}}";
+			sepNavSelRange = "{1160, 0}";
+			sepNavVisRange = "{0, 1175}";
+			sepNavWindowFrame = "{{906, 183}, {949, 1366}}";
+		};
+	};
+	1A2BAA6F0F8BD90F00B355CB /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	1A2BAA700F8BD90F00B355CB /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1A2BAA740F8BD94300B355CB /* Greeter.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {482, 449}}";
+			sepNavSelRange = "{337, 10}";
+			sepNavVisRange = "{0, 394}";
+			sepNavWindowFrame = "{{61, 1031}, {541, 500}}";
+		};
+	};
+	1A2BAA8A0F8BDADF00B355CB /* Guest */ = {
+		activeExec = 0;
+		executables = (
+			1A2BAA8C0F8BDADF00B355CB /* Guest */,
+		);
+	};
+	1A2BAA8C0F8BDADF00B355CB /* Guest */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			NO,
+			NO,
+			YES,
+		);
+		argumentStrings = (
+			"--mach",
+			"--thread",
+			"--socket",
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Guest;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+			"perms-NSUInteger-main" = 6;
+		};
+	};
+	1A2BAAC40F8BE2BF00B355CB /* All */ = {
+		activeExec = 0;
+	};
+	1AAD9D0B0F8DBE040038B59D /* Greeter_main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {793, 2142}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{129, 3021}";
+			sepNavWindowFrame = "{{130, 176}, {852, 1291}}";
+		};
+	};
+	1AAD9D110F8DBE680038B59D /* Guest_main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {793, 2912}}";
+			sepNavSelRange = "{4778, 0}";
+			sepNavVisRange = "{3, 3105}";
+			sepNavWindowFrame = "{{215, 125}, {852, 1291}}";
+		};
+	};
+	32A70AAB03705E1F00C91783 /* Greeter_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {793, 1240}}";
+			sepNavSelRange = "{132, 0}";
+			sepNavVisRange = "{0, 132}";
+			sepNavWindowFrame = "{{199, 114}, {852, 1291}}";
+		};
+	};
+	8DD76F960486AA7600D96B5E /* Greeter */ = {
+		activeExec = 0;
+		executables = (
+			1A2BAA660F8BD90100B355CB /* Greeter */,
+		);
+	};
+}

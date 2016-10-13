@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A2489B30FD4FD26000C3390 /* TicTacToeApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1A2489B10FD4FD26000C3390 /* TicTacToeApp.icns */; };
+		1A2489B40FD4FD26000C3390 /* TicTacToeDoc.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1A2489B20FD4FD26000C3390 /* TicTacToeDoc.icns */; };
+		1A6853B40FC770D5002CA8DF /* TTTDocument+GameLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6853B30FC770D5002CA8DF /* TTTDocument+GameLogic.m */; };
+		1A6853DE0FC77728002CA8DF /* GameRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6853DD0FC77728002CA8DF /* GameRow.m */; };
+		1A6853E10FC77734002CA8DF /* TicTacToeGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6853E00FC77734002CA8DF /* TicTacToeGame.m */; };
+		1A6853E40FC7790D002CA8DF /* GameRowEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6853E30FC7790D002CA8DF /* GameRowEnumerator.m */; };
+		1A6853E70FC77924002CA8DF /* TwoOneRowEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6853E60FC77924002CA8DF /* TwoOneRowEnumerator.m */; };
+		1AD689760FC9213A00E71228 /* StrokeDiag.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AD689730FC9213A00E71228 /* StrokeDiag.png */; };
+		1AD689770FC9213A00E71228 /* StrokeHorz.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AD689740FC9213A00E71228 /* StrokeHorz.png */; };
+		1AD689780FC9213A00E71228 /* StrokeVert.png in Resources */ = {isa = PBXBuildFile; fileRef = 1AD689750FC9213A00E71228 /* StrokeVert.png */; };
+		1ADD70880FC7422B00341CE9 /* ChalkboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADD70870FC7422B00341CE9 /* ChalkboardView.m */; };
+		1ADD708A0FC742B400341CE9 /* Chalkboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ADD70890FC742B400341CE9 /* Chalkboard.png */; };
+		1ADD70C30FC75BD200341CE9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADD70C20FC75BD200341CE9 /* QuartzCore.framework */; };
+		1ADD70F60FC763F800341CE9 /* O1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ADD70ED0FC763F800341CE9 /* O1.png */; };
+		1ADD70F70FC763F800341CE9 /* O2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ADD70EE0FC763F800341CE9 /* O2.png */; };
+		1ADD70F80FC763F800341CE9 /* O3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ADD70EF0FC763F800341CE9 /* O3.png */; };
+		1ADD70F90FC763F800341CE9 /* O0.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ADD70F00FC763F800341CE9 /* O0.png */; };
+		1ADD70FA0FC763F800341CE9 /* X1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ADD70F10FC763F800341CE9 /* X1.png */; };
+		1ADD70FB0FC763F800341CE9 /* X2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ADD70F20FC763F800341CE9 /* X2.png */; };
+		1ADD70FC0FC763F800341CE9 /* X3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ADD70F30FC763F800341CE9 /* X3.png */; };
+		1ADD70FD0FC763F800341CE9 /* X4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ADD70F40FC763F800341CE9 /* X4.png */; };
+		1ADD70FE0FC763F800341CE9 /* X0.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ADD70F50FC763F800341CE9 /* X0.png */; };
+		1DDD582C0DA1D0D100B32029 /* TTTDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58280DA1D0D100B32029 /* TTTDocument.xib */; };
+		1DDD582D0DA1D0D100B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD582A0DA1D0D100B32029 /* MainMenu.xib */; };
+		8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
+		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
+		8D15AC310486D014006FF6A4 /* TTTDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4ACFDCFA73011CA2CEA /* TTTDocument.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FBA07B3F13500E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1A0AA0610FC85DA0002C23D9 /* TicTacToeDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicTacToeDefs.h; sourceTree = "<group>"; };
+		1A2489B10FD4FD26000C3390 /* TicTacToeApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TicTacToeApp.icns; sourceTree = "<group>"; };
+		1A2489B20FD4FD26000C3390 /* TicTacToeDoc.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = TicTacToeDoc.icns; sourceTree = "<group>"; };
+		1A6853B20FC770D5002CA8DF /* TTTDocument+GameLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TTTDocument+GameLogic.h"; sourceTree = "<group>"; };
+		1A6853B30FC770D5002CA8DF /* TTTDocument+GameLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TTTDocument+GameLogic.m"; sourceTree = "<group>"; };
+		1A6853DC0FC77728002CA8DF /* GameRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameRow.h; sourceTree = "<group>"; };
+		1A6853DD0FC77728002CA8DF /* GameRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameRow.m; sourceTree = "<group>"; };
+		1A6853DF0FC77734002CA8DF /* TicTacToeGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicTacToeGame.h; sourceTree = "<group>"; };
+		1A6853E00FC77734002CA8DF /* TicTacToeGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicTacToeGame.m; sourceTree = "<group>"; };
+		1A6853E20FC7790D002CA8DF /* GameRowEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameRowEnumerator.h; sourceTree = "<group>"; };
+		1A6853E30FC7790D002CA8DF /* GameRowEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameRowEnumerator.m; sourceTree = "<group>"; };
+		1A6853E50FC77924002CA8DF /* TwoOneRowEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoOneRowEnumerator.h; sourceTree = "<group>"; };
+		1A6853E60FC77924002CA8DF /* TwoOneRowEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoOneRowEnumerator.m; sourceTree = "<group>"; };
+		1AD689730FC9213A00E71228 /* StrokeDiag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StrokeDiag.png; sourceTree = "<group>"; };
+		1AD689740FC9213A00E71228 /* StrokeHorz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StrokeHorz.png; sourceTree = "<group>"; };
+		1AD689750FC9213A00E71228 /* StrokeVert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StrokeVert.png; sourceTree = "<group>"; };
+		1ADD70860FC7422B00341CE9 /* ChalkboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChalkboardView.h; sourceTree = "<group>"; };
+		1ADD70870FC7422B00341CE9 /* ChalkboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChalkboardView.m; sourceTree = "<group>"; };
+		1ADD70890FC742B400341CE9 /* Chalkboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chalkboard.png; sourceTree = "<group>"; };
+		1ADD70C20FC75BD200341CE9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		1ADD70ED0FC763F800341CE9 /* O1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = O1.png; sourceTree = "<group>"; };
+		1ADD70EE0FC763F800341CE9 /* O2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = O2.png; sourceTree = "<group>"; };
+		1ADD70EF0FC763F800341CE9 /* O3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = O3.png; sourceTree = "<group>"; };
+		1ADD70F00FC763F800341CE9 /* O0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = O0.png; sourceTree = "<group>"; };
+		1ADD70F10FC763F800341CE9 /* X1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = X1.png; sourceTree = "<group>"; };
+		1ADD70F20FC763F800341CE9 /* X2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = X2.png; sourceTree = "<group>"; };
+		1ADD70F30FC763F800341CE9 /* X3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = X3.png; sourceTree = "<group>"; };
+		1ADD70F40FC763F800341CE9 /* X4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = X4.png; sourceTree = "<group>"; };
+		1ADD70F50FC763F800341CE9 /* X0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = X0.png; sourceTree = "<group>"; };
+		1DDD58290DA1D0D100B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/TTTDocument.xib; sourceTree = "<group>"; };
+		1DDD582B0DA1D0D100B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2A37F4ACFDCFA73011CA2CEA /* TTTDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTDocument.m; sourceTree = "<group>"; };
+		2A37F4AEFDCFA73011CA2CEA /* TTTDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTDocument.h; sourceTree = "<group>"; };
+		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32DBCF750370BD2300C91783 /* TicTacToe_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicTacToe_Prefix.pch; sourceTree = "<group>"; };
+		8D15AC360486D014006FF6A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D15AC370486D014006FF6A4 /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D15AC330486D014006FF6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
+				1ADD70C30FC75BD200341CE9 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1ADD70C20FC75BD200341CE9 /* QuartzCore.framework */,
+				1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A8FEA54F5311CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */,
+				13E42FBA07B3F13500E4EEF1 /* CoreData.framework */,
+				2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB0FE9D524F11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D15AC370486D014006FF6A4 /* TicTacToe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A0FC95A0FC9FAFC00D1A75A /* Game Images */ = {
+			isa = PBXGroup;
+			children = (
+				1ADD70890FC742B400341CE9 /* Chalkboard.png */,
+				1ADD70F00FC763F800341CE9 /* O0.png */,
+				1ADD70ED0FC763F800341CE9 /* O1.png */,
+				1ADD70EE0FC763F800341CE9 /* O2.png */,
+				1ADD70EF0FC763F800341CE9 /* O3.png */,
+				1ADD70F50FC763F800341CE9 /* X0.png */,
+				1ADD70F10FC763F800341CE9 /* X1.png */,
+				1ADD70F20FC763F800341CE9 /* X2.png */,
+				1ADD70F30FC763F800341CE9 /* X3.png */,
+				1ADD70F40FC763F800341CE9 /* X4.png */,
+				1AD689730FC9213A00E71228 /* StrokeDiag.png */,
+				1AD689740FC9213A00E71228 /* StrokeHorz.png */,
+				1AD689750FC9213A00E71228 /* StrokeVert.png */,
+			);
+			name = "Game Images";
+			sourceTree = "<group>";
+		};
+		2A37F4AAFDCFA73011CA2CEA /* TicTacToe */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4ABFDCFA73011CA2CEA /* Classes */,
+				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
+				2A37F4B8FDCFA73011CA2CEA /* Resources */,
+				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
+				19C28FB0FE9D524F11CA2CBB /* Products */,
+			);
+			name = TicTacToe;
+			sourceTree = "<group>";
+		};
+		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4AEFDCFA73011CA2CEA /* TTTDocument.h */,
+				2A37F4ACFDCFA73011CA2CEA /* TTTDocument.m */,
+				1A6853B20FC770D5002CA8DF /* TTTDocument+GameLogic.h */,
+				1A6853B30FC770D5002CA8DF /* TTTDocument+GameLogic.m */,
+				1ADD70860FC7422B00341CE9 /* ChalkboardView.h */,
+				1ADD70870FC7422B00341CE9 /* ChalkboardView.m */,
+				1A0AA0610FC85DA0002C23D9 /* TicTacToeDefs.h */,
+				1A6853DF0FC77734002CA8DF /* TicTacToeGame.h */,
+				1A6853E00FC77734002CA8DF /* TicTacToeGame.m */,
+				1A6853DC0FC77728002CA8DF /* GameRow.h */,
+				1A6853DD0FC77728002CA8DF /* GameRow.m */,
+				1A6853E20FC7790D002CA8DF /* GameRowEnumerator.h */,
+				1A6853E30FC7790D002CA8DF /* GameRowEnumerator.m */,
+				1A6853E50FC77924002CA8DF /* TwoOneRowEnumerator.h */,
+				1A6853E60FC77924002CA8DF /* TwoOneRowEnumerator.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF750370BD2300C91783 /* TicTacToe_Prefix.pch */,
+				2A37F4B0FDCFA73011CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */,
+				8D15AC360486D014006FF6A4 /* Info.plist */,
+				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
+				1DDD58280DA1D0D100B32029 /* TTTDocument.xib */,
+				1DDD582A0DA1D0D100B32029 /* MainMenu.xib */,
+				1A2489B10FD4FD26000C3390 /* TicTacToeApp.icns */,
+				1A2489B20FD4FD26000C3390 /* TicTacToeDoc.icns */,
+				1A0FC95A0FC9FAFC00D1A75A /* Game Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
+				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D15AC270486D014006FF6A4 /* TicTacToe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "TicTacToe" */;
+			buildPhases = (
+				8D15AC2B0486D014006FF6A4 /* Resources */,
+				8D15AC300486D014006FF6A4 /* Sources */,
+				8D15AC330486D014006FF6A4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TicTacToe;
+			productInstallPath = "$(HOME)/Applications";
+			productName = TicTacToe;
+			productReference = 8D15AC370486D014006FF6A4 /* TicTacToe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "TicTacToe" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* TicTacToe */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D15AC270486D014006FF6A4 /* TicTacToe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D15AC2B0486D014006FF6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */,
+				8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */,
+				1DDD582C0DA1D0D100B32029 /* TTTDocument.xib in Resources */,
+				1DDD582D0DA1D0D100B32029 /* MainMenu.xib in Resources */,
+				1ADD708A0FC742B400341CE9 /* Chalkboard.png in Resources */,
+				1ADD70F60FC763F800341CE9 /* O1.png in Resources */,
+				1ADD70F70FC763F800341CE9 /* O2.png in Resources */,
+				1ADD70F80FC763F800341CE9 /* O3.png in Resources */,
+				1ADD70F90FC763F800341CE9 /* O0.png in Resources */,
+				1ADD70FA0FC763F800341CE9 /* X1.png in Resources */,
+				1ADD70FB0FC763F800341CE9 /* X2.png in Resources */,
+				1ADD70FC0FC763F800341CE9 /* X3.png in Resources */,
+				1ADD70FD0FC763F800341CE9 /* X4.png in Resources */,
+				1ADD70FE0FC763F800341CE9 /* X0.png in Resources */,
+				1AD689760FC9213A00E71228 /* StrokeDiag.png in Resources */,
+				1AD689770FC9213A00E71228 /* StrokeHorz.png in Resources */,
+				1AD689780FC9213A00E71228 /* StrokeVert.png in Resources */,
+				1A2489B30FD4FD26000C3390 /* TicTacToeApp.icns in Resources */,
+				1A2489B40FD4FD26000C3390 /* TicTacToeDoc.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D15AC300486D014006FF6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC310486D014006FF6A4 /* TTTDocument.m in Sources */,
+				8D15AC320486D014006FF6A4 /* main.m in Sources */,
+				1ADD70880FC7422B00341CE9 /* ChalkboardView.m in Sources */,
+				1A6853B40FC770D5002CA8DF /* TTTDocument+GameLogic.m in Sources */,
+				1A6853DE0FC77728002CA8DF /* GameRow.m in Sources */,
+				1A6853E10FC77734002CA8DF /* TicTacToeGame.m in Sources */,
+				1A6853E40FC7790D002CA8DF /* GameRowEnumerator.m in Sources */,
+				1A6853E70FC77924002CA8DF /* TwoOneRowEnumerator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165FFE840EACC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1660FE840EACC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58280DA1D0D100B32029 /* TTTDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58290DA1D0D100B32029 /* English */,
+			);
+			name = TTTDocument.xib;
+			sourceTree = "<group>";
+		};
+		1DDD582A0DA1D0D100B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD582B0DA1D0D100B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4BAFDCFA73011CA2CEA /* English */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C05733C808A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TicTacToe_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = TicTacToe;
+			};
+			name = Debug;
+		};
+		C05733C908A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TicTacToe_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = TicTacToe;
+			};
+			name = Release;
+		};
+		C05733CC08A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C05733CD08A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "TicTacToe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733C808A9546B00998B17 /* Debug */,
+				C05733C908A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "TicTacToe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733CC08A9546B00998B17 /* Debug */,
+				C05733CD08A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+}

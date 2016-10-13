@@ -1,0 +1,15 @@
+Welcome to Learn Objective-C for Java Developers.
+
+A few chapters refer to projects or complete source code. You will find those resources in the folder containing this ReadMe document.
+
+Chapter 4 & 20:
+The Xcode projects for chapters 4 and 20 require Xcode 3.1 or later. If you have Xcode installed, simply open the Xcode project and build, run, or debug them as you please.
+
+Chapter 13
+The remote method invocation demonstrations are in the Java Greeter and ObjC Greeter folders. Each folder contains a Bash shell script that will build and run the basic demonstration. A quick way to execute each script is to open a Terminal window, drag the .sh file into the Terminal window, then press Return. Alternate demonstrations are discussed in the chapter, and can be invoked by launching the compiled tools from the Terminal window.
+
+Chapter 22
+The complete implementations of the original Matrix class are in the Matrix Class folder. The Matrix Factory folder has the refactored version which demonstrates the use of factory methods and class clusters.
+
+James Bucanek
+james@objectivec4java.com

@@ -1,0 +1,176 @@
+// !$*UTF8*$!
+{
+	1A5FA3FB0F49E730008AEE54 /* Scrapbook Words */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Scrapbook Words";
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	1A5FA4000F49E74F008AEE54 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	1A5FA4010F49E74F008AEE54 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1A5FA4210F49E9A4008AEE54 /* ScrapWordsController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {720, 730}}";
+			sepNavSelRange = "{525, 0}";
+			sepNavVisRange = "{0, 525}";
+			sepNavWindowFrame = "{{15, 792}, {779, 781}}";
+		};
+	};
+	1A5FA4220F49E9A4008AEE54 /* WordFinder.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {720, 730}}";
+			sepNavSelRange = "{385, 93}";
+			sepNavVisRange = "{0, 499}";
+			sepNavWindowFrame = "{{15, 792}, {779, 781}}";
+		};
+	};
+	1A5FA4230F49E9A4008AEE54 /* ScrapWordsController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {720, 1050}}";
+			sepNavSelRange = "{811, 0}";
+			sepNavVisRange = "{0, 1091}";
+			sepNavWindowFrame = "{{38, 771}, {779, 781}}";
+		};
+	};
+	1A5FA4240F49E9A4008AEE54 /* WordFinder.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {839, 2030}}";
+			sepNavSelRange = "{4909, 0}";
+			sepNavVisRange = "{0, 2967}";
+			sepNavWindowFrame = "{{61, 279}, {898, 1252}}";
+		};
+	};
+	1A7035400F4B5539003362A1 /* WordFinder.m:128 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1A5FA4240F49E9A4008AEE54 /* WordFinder.m */;
+		functionName = "-main";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 128;
+		modificationTime = 271812972.406185;
+		state = 0;
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 1A5FA3FB0F49E730008AEE54 /* Scrapbook Words */;
+		activeTarget = 8D1107260486CEB800E47090 /* Scrapbook Words */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* Scrapbook Words */,
+		);
+		breakpoints = (
+			1A7035400F4B5539003362A1 /* WordFinder.m:128 */,
+		);
+		codeSenseManager = 1A5FA4010F49E74F008AEE54 /* Code sense */;
+		executables = (
+			1A5FA3FB0F49E730008AEE54 /* Scrapbook Words */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					388,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					367,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 271812912;
+			PBXWorkspaceStateSaveDate = 271812912;
+		};
+		sourceControlManager = 1A5FA4000F49E74F008AEE54 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {920, 275}}";
+			sepNavSelRange = "{205, 0}";
+			sepNavVisRange = "{0, 266}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* Scrapbook Words_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {624, 281}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 161}";
+		};
+	};
+	8D1107260486CEB800E47090 /* Scrapbook Words */ = {
+		activeExec = 0;
+		executables = (
+			1A5FA3FB0F49E730008AEE54 /* Scrapbook Words */,
+		);
+	};
+}
